@@ -17,7 +17,18 @@ fun main() {
 //   integer9(n)
 //   integer10(n)
 //   integer11(n)
-   integer12(n)
+//   integer12(n)
+//   integer13(n)
+//   integer14(n)
+//   integer15(n)
+//   integer16(n)
+//   integer17(n)
+//   integer18(n)
+//   integer19(n)
+//   integer20(n)
+//   integer21(n)
+//   integer22(n)
+   integer23(n)
 }
 fun convertSmToM(l:Int){
    var m = 0F
@@ -103,5 +114,75 @@ fun integer13(a:Int){
    val d = a - c*100
    val r = d / 10
    val g = d%10
-   
+
+   println(" $a sonining chap tomonidan birinchi raqamni o'chirib o'ng tomoniga yozishdan hosil bo'lgan son $r$g$c ga teng ")
+}
+
+fun integer14(a:Int){
+   val c = a/100
+   val d = a - c*100
+   val r = d / 10
+   val g = d%10
+
+   println(" $a sonining chap tomonidan birinchi raqamni o'chirib o'ng tomoniga yozishdan hosil bo'lgan son $g$c$r ga teng ")
+}
+
+fun integer15(a:Int){
+   val c = a/100
+   val d = a - c*100
+   val r = d / 10
+   val g = d%10
+
+   println(" $a sonining o'nlar xonasidagi sonlar bilan yuzlar xonasidagi sonni almashtirishdan hosil bo'lgan son $r$c$g ga teng")
+}
+
+fun integer16(a:Int){
+   val c = a/100
+   val d = a - c*100
+   val r = d / 10
+   val g = d%10
+   println(" $a sonining o'nlar xonasidagi sonni birliklar xonasidagi son bilan almashtirishdan hosil bo'lgan son $c$g$r ga teng ")
+}
+fun integer17(a:Int){
+   val c = a/1000
+   val d = a - c*1000
+   val r = d/100
+
+   println(" $a sonining yuzlar xonasidagi qiymati $r ga teng")
+}
+
+fun integer18(a:Int){
+   val s= a/1000
+   println(" $a sonining mingliklar xonasidagi son bu $s ga teng")
+}
+fun integer19(a:Int){
+   val s = a/60
+
+   println(" $a sekund kun boshidan beri to'liq $s minut o'tdi")
+}
+
+fun integer20(a:Int){
+   val d = a/3600
+   println(" $a sekund kun boshidan beri $d soat to'la vaqt o'tdi")
+}
+
+fun integer21(a:Int){
+   val s = a/60
+   val d = a%60
+   println(" $a sekund kun bo'yidan boshlab $s minut va $d sekund vaqt o'tdi")
+}
+
+fun integer22(a:Int){
+   val d = a/3600
+   val f = a%3600
+
+   println(" $a sekund kun boshidan beri $d soat va $f sekund o'tdi")
+}
+
+fun integer23(a:Int){
+   val s = a/3600
+   val m = a - s*3600
+   val d = m/60
+   val e = m%60
+   println(" $a sekund kun boshidan beri $s soat, $d minut va $e sekund o'tdi")
 }
