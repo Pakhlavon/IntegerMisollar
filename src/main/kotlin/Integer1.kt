@@ -28,7 +28,14 @@ fun main() {
 //   integer20(n)
 //   integer21(n)
 //   integer22(n)
-   integer23(n)
+//   integer23(n)
+//   integer24(n)
+//   integer25(n)
+//   integer26(n)
+//   integer27(n)
+//   integer28(n)
+//   integer29()
+   integer30(n)
 }
 fun convertSmToM(l:Int){
    var m = 0F
@@ -185,4 +192,149 @@ fun integer23(a:Int){
    val d = m/60
    val e = m%60
    println(" $a sekund kun boshidan beri $s soat, $d minut va $e sekund o'tdi")
+}
+fun integer24(k:Int){
+   val d = k%7
+   when(d){
+      1-> println("Dushanba")
+      2-> println("Seshanba")
+      3-> println("Chorshanba")
+      4-> println("Payshanba")
+      5-> println("Juma")
+      6-> println("Shanba")
+      0-> println("Yakshanba")
+   }
+}
+fun integer25(k:Int){
+   val d = k%7
+   when(d){
+      5-> println("Dushanba")
+      6-> println("Seshanba")
+      0-> println("Chorshanba")
+      1-> println("Payshanba")
+      2-> println("Juma")
+      3-> println("Shanba")
+      4-> println("Yakshanba")
+   }
+}
+fun integer26(k:Int){
+   val d = k%7
+   when(d){
+      0-> println("Dushanba")
+      1-> println("Seshanba")
+      2-> println("Chorshanba")
+      3-> println("Payshanba")
+      4-> println("Juma")
+      5-> println("Shanba")
+      6-> println("Yakshanba")
+   }
+}
+fun integer27(k:Int){
+   val d = k%7
+   when(d){
+      2-> println("Dushanba")
+      3-> println("Seshanba")
+      4-> println("Chorshanba")
+      5-> println("Payshanba")
+      6-> println("Juma")
+      0-> println("Shanba")
+      1-> println("Yakshanba")
+   }
+}
+fun integer28(k:Int){
+   val d = k%7
+   when(d){
+      0-> {
+         when (d) {
+            1 -> println("Dushanba")
+            2 -> println("Seshanba")
+            3 -> println("Chorshanba")
+            4 -> println("Payshanba")
+            5 -> println("Juma")
+            6 -> println("Shanba")
+            0 -> println("Yakshanba")
+         }
+      }
+      1-> {
+         when(d){
+            2 -> println("Dushanba")
+            3 -> println("Seshanba")
+            4 -> println("Chorshanba")
+            5 -> println("Payshanba")
+            6 -> println("Juma")
+            0 -> println("Shanba")
+            1 -> println("Yakshanba")
+         }
+      }
+      2-> {
+         when(d){
+            3 -> println("Dushanba")
+            4 -> println("Seshanba")
+            5 -> println("Chorshanba")
+            6 -> println("Payshanba")
+            0 -> println("Juma")
+            1 -> println("Shanba")
+            2 -> println("Yakshanba")
+         }
+      }
+      3-> {
+         when(d){
+            4 -> println("Dushanba")
+            5 -> println("Seshanba")
+            6 -> println("Chorshanba")
+            0 -> println("Payshanba")
+            1 -> println("Juma")
+            2 -> println("Shanba")
+            3 -> println("Yakshanba")
+         }
+      }
+      4-> {
+         when(d){
+            5 -> println("Dushanba")
+            6 -> println("Seshanba")
+            0 -> println("Chorshanba")
+            1 -> println("Payshanba")
+            2 -> println("Juma")
+            3 -> println("Shanba")
+            4 -> println("Yakshanba")
+         }
+      }
+      5-> {
+         when(d){
+            6 -> println("Dushanba")
+            0 -> println("Seshanba")
+            1 -> println("Chorshanba")
+            2 -> println("Payshanba")
+            3 -> println("Juma")
+            4 -> println("Shanba")
+            5 -> println("Yakshanba")
+         }
+      }
+      6-> {
+         when(d){
+            5 -> println("Dushanba")
+            4 -> println("Seshanba")
+            3 -> println("Chorshanba")
+            2 -> println("Payshanba")
+            1 -> println("Juma")
+            0 -> println("Shanba")
+            6 -> println("Yakshanba")
+         }
+      }
+   }
+}
+fun integer29(){
+   val a = 4
+   val b = 5
+   val c =3
+
+   val S1 = (a+b)*2
+   val S2 = c*c
+   println(" biz ${S1/S2} ta butun kvadrat joylashishimiz mumkin va ${S1%S2} yuza qolyapti")
+}
+
+fun integer30(a:Int){
+ val s = a/100
+   println(" $a yil ${s + 1} yuz yillikga kiradi")
+
 }
