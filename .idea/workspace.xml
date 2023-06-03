@@ -91,13 +91,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685663905015</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Mantiqiy amallar 6-16">
+      <created>1685826552375</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685826552375</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Integer tipiga oid misollar 1-13 gacha" />
     <MESSAGE value="Integer tipiga oid misollar 24-30 gacha" />
     <MESSAGE value="Mantiqiy amallar 1-5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mantiqiy amallar 1-5" />
+    <MESSAGE value="Mantiqiy amallar 6-16" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mantiqiy amallar 6-16" />
   </component>
 </project>
