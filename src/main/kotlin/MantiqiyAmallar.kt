@@ -4,9 +4,9 @@ import kotlin.system.exitProcess
 fun main() {
     val scanner = Scanner(System.`in`)
 
-    val n = scanner.nextInt()
-    val m = scanner.nextInt()
-    val f = scanner.nextInt()
+//    val n = scanner.nextInt()
+//    val m = scanner.nextInt()
+//    val f = scanner.nextInt()
 //    boolean1(n)
 //    boolean2(n)
 //    boolean3(n)
@@ -24,8 +24,17 @@ fun main() {
 //    boolean15(n,m,f)
 //    boolean16(n)
 //    boolean17(n)
-    boolean18(n,m,f)
+//    boolean18(n,m,f)
 //    boolean16(n)
+    println(check("Aliyor", "Aliyor"))
+}
+
+fun check(s1: String, s2: String): Int {
+    var count = 0
+    s2.forEachIndexed { index, c ->
+        if (s1.contains(c) && s1[index] != c) count ++
+    }
+    return count
 }
 
 fun boolean1(a:Int){
