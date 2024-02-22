@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e47b9fbd-fd3b-4326-b34f-89c7e59a23ae" name="Changes" comment="added binary search algorithm">
+    <list default="true" id="e47b9fbd-fd3b-4326-b34f-89c7e59a23ae" name="Changes" comment="finished IF Misollari">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/TanlashOperator.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ShartOperator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ShartOperator.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,19 +36,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Kotlin.BinarySearchKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.HackerrankKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.MantiqiyAmallarKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.ShartOperatorKt.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Kotlin.BinarySearchKt.executor": "Run",
+    "Kotlin.HackerrankKt.executor": "Run",
+    "Kotlin.MantiqiyAmallarKt.executor": "Run",
+    "Kotlin.ShartOperatorKt.executor": "Run",
+    "Kotlin.TanlashOperatorKt.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager" selected="Kotlin.ShartOperatorKt">
+}]]></component>
+  <component name="RunManager" selected="Kotlin.TanlashOperatorKt">
     <configuration name="BinarySearchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearchKt" />
       <module name="ButunSonlar" />
@@ -58,13 +59,6 @@
     </configuration>
     <configuration name="HackerrankKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HackerrankKt" />
-      <module name="ButunSonlar" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Integer1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Integer1Kt" />
       <module name="ButunSonlar" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,13 +78,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TanlashOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TanlashOperatorKt" />
+      <module name="ButunSonlar" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TanlashOperatorKt" />
         <item itemvalue="Kotlin.ShartOperatorKt" />
         <item itemvalue="Kotlin.BinarySearchKt" />
         <item itemvalue="Kotlin.HackerrankKt" />
         <item itemvalue="Kotlin.MantiqiyAmallarKt" />
-        <item itemvalue="Kotlin.Integer1Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708324462721</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="finished IF Misollari">
+      <option name="closed" value="true" />
+      <created>1708594288426</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708594288426</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -157,6 +166,7 @@
     <MESSAGE value="Mantiqiy amallar 1-5" />
     <MESSAGE value="Mantiqiy amallar 6-16" />
     <MESSAGE value="added binary search algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="added binary search algorithm" />
+    <MESSAGE value="finished IF Misollari" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished IF Misollari" />
   </component>
 </project>
