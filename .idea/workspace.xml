@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e47b9fbd-fd3b-4326-b34f-89c7e59a23ae" name="Changes" comment="finished Tanlash operatori">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Sikl.kt" afterDir="false" />
+    <list default="true" id="e47b9fbd-fd3b-4326-b34f-89c7e59a23ae" name="Changes" comment="sikl">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Sikl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Sikl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/TanlashOperator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/TanlashOperator.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +43,7 @@
     "Kotlin.HackerrankKt.executor": "Run",
     "Kotlin.MantiqiyAmallarKt.executor": "Run",
     "Kotlin.ShartOperatorKt.executor": "Run",
+    "Kotlin.SiklKt.executor": "Run",
     "Kotlin.TanlashOperatorKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -49,7 +51,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.TanlashOperatorKt">
+  <component name="RunManager" selected="Kotlin.SiklKt">
     <configuration name="BinarySearchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearchKt" />
       <module name="ButunSonlar" />
@@ -64,15 +66,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MantiqiyAmallarKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MantiqiyAmallarKt" />
+    <configuration name="ShartOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ShartOperatorKt" />
       <module name="ButunSonlar" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShartOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ShartOperatorKt" />
+    <configuration name="SiklKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SiklKt" />
       <module name="ButunSonlar" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SiklKt" />
         <item itemvalue="Kotlin.TanlashOperatorKt" />
         <item itemvalue="Kotlin.ShartOperatorKt" />
         <item itemvalue="Kotlin.BinarySearchKt" />
         <item itemvalue="Kotlin.HackerrankKt" />
-        <item itemvalue="Kotlin.MantiqiyAmallarKt" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708605666548</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="sikl">
+      <option name="closed" value="true" />
+      <created>1708606504081</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708606504081</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -176,6 +186,7 @@
     <MESSAGE value="added binary search algorithm" />
     <MESSAGE value="finished IF Misollari" />
     <MESSAGE value="finished Tanlash operatori" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished Tanlash operatori" />
+    <MESSAGE value="sikl" />
+    <option name="LAST_COMMIT_MESSAGE" value="sikl" />
   </component>
 </project>

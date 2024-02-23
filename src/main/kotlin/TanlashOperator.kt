@@ -1,5 +1,4 @@
 import java.util.Scanner
-import java.util.StringJoiner
 
 fun main() {
     val scanner  = Scanner(System.`in`)
