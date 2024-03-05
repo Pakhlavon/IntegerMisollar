@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e47b9fbd-fd3b-4326-b34f-89c7e59a23ae" name="Changes" comment="sikl">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Massiv.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Sikl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Sikl.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,21 +42,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Kotlin.BinarySearchKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.HackerrankKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.MantiqiyAmallarKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.ShartOperatorKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.SiklKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.TanlashOperatorKt.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Kotlin.BinarySearchKt.executor": "Run",
+    "Kotlin.HackerrankKt.executor": "Run",
+    "Kotlin.MantiqiyAmallarKt.executor": "Run",
+    "Kotlin.MassivKt.executor": "Run",
+    "Kotlin.ShartOperatorKt.executor": "Run",
+    "Kotlin.SiklKt.executor": "Run",
+    "Kotlin.TanlashOperatorKt.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/HP/IdeaProjects/IntegerMisollar/src/main/kotlin"
   }
-}</component>
-  <component name="RunManager" selected="Kotlin.SiklKt">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\IdeaProjects\IntegerMisollar\src\main\kotlin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.MassivKt">
     <configuration name="BinarySearchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearchKt" />
       <module name="ButunSonlar" />
@@ -64,8 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HackerrankKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HackerrankKt" />
+    <configuration name="MassivKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MassivKt" />
       <module name="ButunSonlar" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MassivKt" />
         <item itemvalue="Kotlin.SiklKt" />
         <item itemvalue="Kotlin.TanlashOperatorKt" />
         <item itemvalue="Kotlin.ShartOperatorKt" />
         <item itemvalue="Kotlin.BinarySearchKt" />
-        <item itemvalue="Kotlin.HackerrankKt" />
       </list>
     </recent_temporary>
   </component>
@@ -106,6 +113,7 @@
     <attachedChunks>
       <set>
         <option value="jdk-1.8.0_402-corretto-1.8.0_402-3183f394aec4-8ce719b4" />
+        <option value="jdk-11.0.22-semeru-11.0.22-f644763e9732-83f6228e" />
       </set>
     </attachedChunks>
   </component>
@@ -178,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708606504081</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="sikl">
+      <option name="closed" value="true" />
+      <created>1708693341075</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708693341076</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
