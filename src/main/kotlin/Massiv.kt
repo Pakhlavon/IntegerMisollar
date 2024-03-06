@@ -15,7 +15,14 @@ fun main() {
 //    array6(n, A, B)
 //    array7()
 //    array8()
-    array9()
+//    array9()
+//    array10()
+//    array11(n)
+//    array12()
+//    array13()
+//    array14()
+//    array15()
+    array16()
 }
 
 fun array1(n: Int) {
@@ -88,6 +95,92 @@ fun array9() {
     println(array.contentToString())
 }
 
-fun array10(n: Int) {
+fun array10() {
+    val array: Array<Int> = arrayOf(2, 6, 8, 97, 11, 12, 45)
+    var array2: Array<Int> = arrayOf()
+    var array3: Array<Int> = arrayOf()
+    for(i in 0..array.size - 1){
+        if (array[i]%2 == 0) {
+            array2 += array[i]
+            array2.sort()
+        } else {
+            array3 += array[i]
+            array3.sortDescending()
+        }
+    }
+    println(array2.contentToString())
+    println(array3.contentToString())
+}
 
+fun array11(k: Int){
+    val array: Array<Int> = arrayOf(2, 6, 8, 97, 11, 12, 45)
+    var array2: Array<Int> = arrayOf()
+    for (i in 0..array.size-1) {
+        when(array[i]%k){
+           0 -> array2 += array[i]
+        }
+    }
+    println(array2.contentToString())
+}
+
+fun array12(){
+    val array: Array<Int> = arrayOf(2, 6, 8, 97, 11, 12, 45, 88)
+    var array2: Array<Int> = arrayOf()
+    for (i in 0..array.size-1){
+        when(i%2){
+            0 -> array2 += array[i]
+        }
+    }
+    println(array2.contentToString())
+}
+fun array13(){
+    val array: Array<Int> = arrayOf(2, 6, 8, 97, 11, 12, 45, 88, 89)
+    var array2: Array<Int> = arrayOf()
+    for (i in 0..array.size-1){
+        when(i%2){
+            1 -> array2 += array[i]
+        }
+    }
+    array2.sortDescending()
+    println(array2.contentToString())
+}
+
+fun array14(){
+    val array: Array<Int> = arrayOf(2, 6, 8, 97, 11, 12, 45, 88, 89)
+    var array2: Array<Int> = arrayOf()
+    var array3: Array<Int> = arrayOf()
+    for (i in 0..array.size-1){
+        when(i%2){
+            1 -> array2 += array[i]
+            0 -> array3 += array[i]
+        }
+    }
+    println(array3.contentToString())
+    println(array2.contentToString())
+}
+
+fun array15(){
+    val array: Array<Int> = arrayOf(2, 6, 8, 97, 11, 12, 45, 88, 89)
+    var array2: Array<Int> = arrayOf()
+    var array3: Array<Int> = arrayOf()
+    for (i in 0..array.size-1){
+        when(i%2){
+            1 -> array2 += array[i]
+            0 -> array3 += array[i]
+        }
+    }
+    array2.sortDescending()
+    println(array3.contentToString())
+    println(array2.contentToString())
+}
+
+fun array16(){
+    val array: Array<Int> = arrayOf(2, 6, 8, 97, 11, 12, 45, 88, 89)
+    var array2: Array<Int> = arrayOf()
+    for (i in 0..array.size-1){
+       array2 += array[i]
+       array2 += array[i-1]
+
+    }
+    println(array2.contentToString())
 }
