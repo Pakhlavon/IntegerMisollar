@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e47b9fbd-fd3b-4326-b34f-89c7e59a23ae" name="Changes" comment="sikl">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Massiv.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Massiv.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Massiv.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,11 +22,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+  }
+}</component>
   <component name="GithubProjectSettings">
     <option name="branchProtectionPatterns">
       <list>
         <option value="main" />
       </list>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="def26bd7-301c-44ec-bd8e-d37f390aca67" />
+        <option name="url" value="https://github.com/Pakhlavon/IntegerMisollar.git" />
+      </UrlAndAccount>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -42,22 +53,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Kotlin.BinarySearchKt.executor": "Run",
-    "Kotlin.HackerrankKt.executor": "Run",
-    "Kotlin.MantiqiyAmallarKt.executor": "Run",
-    "Kotlin.MassivKt.executor": "Run",
-    "Kotlin.ShartOperatorKt.executor": "Run",
-    "Kotlin.SiklKt.executor": "Run",
-    "Kotlin.TanlashOperatorKt.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/HP/IdeaProjects/IntegerMisollar/src/main/kotlin"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Kotlin.BinarySearchKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.HackerrankKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MantiqiyAmallarKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MassivKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ShartOperatorKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.SiklKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.TanlashOperatorKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/IdeaProjects/IntegerMisollar/src/main/kotlin&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\HP\IdeaProjects\IntegerMisollar\src\main\kotlin" />
@@ -112,8 +123,9 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-1.8.0_402-corretto-1.8.0_402-3183f394aec4-8ce719b4" />
         <option value="jdk-11.0.22-semeru-11.0.22-f644763e9732-83f6228e" />
+        <option value="jdk-11.0.22-semeru-11.0.22-f644763e9732-d90ddd3d" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
       </set>
     </attachedChunks>
   </component>
@@ -194,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708693341076</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="sikl">
+      <option name="closed" value="true" />
+      <created>1709643119634</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709643119634</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
