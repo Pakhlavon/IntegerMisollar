@@ -22,7 +22,8 @@ fun main() {
 //    array13()
 //    array14()
 //    array15()
-    array16()
+//    array16()
+    array18()
 }
 
 fun array1(n: Int) {
@@ -180,7 +181,15 @@ fun array16(){
     for (i in 0..array.size-1){
        array2 += array[i]
        array2 += array[i-1]
-
     }
     println(array2.contentToString())
+}
+
+fun array18(){
+    val array: Array<Int> = arrayOf(2, 6, 8, 97, 11, 12, 45, 88, 89)
+      for(i in 0 .. array.size -1) {
+          if (array.last() > array[i]){
+              println(array[i])
+          }
+      }
 }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e47b9fbd-fd3b-4326-b34f-89c7e59a23ae" name="Changes" comment="array">
+    <list default="true" id="e47b9fbd-fd3b-4326-b34f-89c7e59a23ae" name="Changes" comment="array to array16">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Massiv.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Massiv.kt" afterDir="false" />
     </list>
@@ -222,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709720013482</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="array to array16">
+      <option name="closed" value="true" />
+      <created>1709728825936</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709728825936</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -235,6 +243,7 @@
     <MESSAGE value="finished Tanlash operatori" />
     <MESSAGE value="sikl" />
     <MESSAGE value="array" />
-    <option name="LAST_COMMIT_MESSAGE" value="array" />
+    <MESSAGE value="array to array16" />
+    <option name="LAST_COMMIT_MESSAGE" value="array to array16" />
   </component>
 </project>
